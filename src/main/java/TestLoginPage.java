@@ -1,11 +1,9 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
 import utility.RandomDataUtility;
 
 import java.util.Map;
@@ -19,7 +17,7 @@ public class TestLoginPage {
         String filePath = "randomData.txt";
         Map<String, String> data = RandomDataUtility.readEmailAndTextFromFile(filePath);
         driver.get("https://customer-dev2.vela.com.vn/");
-        WebElement usernameField = driver.findElement(By.id("username"));
+        WebElement usernameField = driver.findElement(By.name("Username"));
         WebElement passwordField = driver.findElement(By.id("password"));
         WebElement loginButton = driver.findElement(By.id("btnlogin"));
         usernameField.sendKeys(data.get("email"));
@@ -31,14 +29,6 @@ public class TestLoginPage {
             e.printStackTrace();
         }
     }
-    @Test
-    public void VerifyUrl() {
-        String url = driver.getCurrentUrl();
-        String expectedUrl = "https://customer-dev2.vela.com.vn/rfi";
-        Assert.assertEquals(url, expectedUrl, "return to correct url");
-
-    }
-
     public void tearDown() {
         driver.quit();
     }

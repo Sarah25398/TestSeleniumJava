@@ -18,6 +18,9 @@ dependencies {
     implementation("org.testng:testng:7.10.2")
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     implementation("io.github.bonigarcia:webdrivermanager:5.9.2")
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    implementation("io.rest-assured:rest-assured:5.5.0")
+
 
 
 

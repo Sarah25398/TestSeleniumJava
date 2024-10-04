@@ -21,7 +21,7 @@ public class RandomDataUtility {
             email.append(characters.charAt(random.nextInt(characters.length())));
         }
         // Append domain
-        email.append("@example.com");
+        email.append("@yopmail.com");
         return email.toString();
     }
 

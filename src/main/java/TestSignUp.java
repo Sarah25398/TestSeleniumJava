@@ -65,9 +65,14 @@ public class TestSignUp {
         } else {
             System.out.println("Element is not visible.");
         }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
     }
     public void tearDown() {
-        driver.quit();
+        driver.close();
     }
 }
