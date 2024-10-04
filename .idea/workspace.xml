@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004f5d8d-889a-4175-bd93-92a535e6f289" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestBookingAddMore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ValidateFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/WriteDataIntoFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/randomData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verifysignupfield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestSignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/RandomDataUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/RandomDataUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/verifysignupfield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verifysignupfield.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,22 +170,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/verifysignupfield.java</url>
-          <line>21</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestLoginPage.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/verifysignupfield.java</url>
-          <line>22</line>
-          <properties class="verifysignupfield" method="VerifyCompanyName">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ApiTest.java</url>

@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.NoSuchElementException;
+
 
 public class verifysignupfield {
     WebDriver driver;
@@ -26,9 +28,44 @@ public class verifysignupfield {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        ValidEmail(driver,"email","hahamymyqa.team");
         VerifyElement(driver,"//label[@class='ant-form-item-required'][1]", "Company Name");
 
     }
+    public void ValidEmail(WebDriver driver,String id,String enteredEmail) {
+        WebElement email = driver.findElement(By.id(id));
+        email.clear();
+        email.sendKeys(enteredEmail);
+        WebElement optionClick = driver.findElement(By.xpath("//label[@for='email']"));
+        optionClick.click();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            WebElement circle = driver.findElement(By.xpath("//span[@ng-reflect-nz-type='check-circle-fill']"));
+            if (circle.isDisplayed()) {
+                System.out.println("Test case has valid email");
+            }
+        } catch (NoSuchElementException e) {
+            try {
+                WebElement alert = driver.findElement(By.xpath("//div[@role='alert']"));
+                String Text = alert.getText();
+                if (alert.isDisplayed()) {
+                    boolean TextDisplay = Text.equals(" Định dạng của email không đúng!");
+                    System.out.println(TextDisplay);
+                }
+            } catch (NoSuchElementException ex) {
+                // Neither the circle nor the alert is found
+                System.out.println("Neither circle nor alert message found. Possible error in the flow.");
+            }
+
+        }
+    }
+
+
     public void VerifyElement(WebDriver driver, String xpath, String expectedText) {
 
         WebElement CompanyName = driver.findElement(By.xpath(xpath));
@@ -51,3 +88,4 @@ public class verifysignupfield {
         driver.quit();
     }
 }
+

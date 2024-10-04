@@ -37,7 +37,6 @@ public class CostingSupplierTest {
     }
 
     @Test
-
     public void TestListElement() {
         driver.get("https://portal-app-dev2.portal-nonprod.vela.com.vn/booking/create-booking");
         try {
