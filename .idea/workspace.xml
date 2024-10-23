@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004f5d8d-889a-4175-bd93-92a535e6f289" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LamdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SignUpTaskVerify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestHoverName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestMultipleLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thomas (8).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/randomData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBookingAddMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBookingAddMore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/verifysignupfield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/verifysignupfield.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +61,10 @@
     &quot;Gradle.Build untitled.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:APITest.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:ApiTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:LamdaTest.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:RandomDataUtility.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestWriteFile.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:ValidateFields.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:utility.RandomDataUtility.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.untitled [:utility.RandomTextEmailGenerator.main()].executor&quot;: &quot;Run&quot;,
@@ -60,31 +75,65 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.ApiTest.GetWeatherDetails.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ArrayListExample.AddObjectIntoArray.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.CostingSupplierTest.TestListElement.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.CostingSupplierTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LamdaTest.TestLamdaExpression.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LamdaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTaskVerify.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTaskVerify.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestBookingAddMore.TestAddMore.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestBookingAddMore.TestAddMorePagination.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestBookingAddMore.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestClass.LoginPage.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestClass.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestClass.run.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestClass.testSomething.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestHoverName.TestHover.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestHoverName.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestLoginPage.VerifyUrl.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestLoginPage.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestSignUp.VerifyCreateUser.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TestSignUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ThreadTest.TestThreads.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ThreadTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.verifysignupfield.VerifyCompanyName.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.verifysignupfield.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/vela.os010/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vela.os010/IdeaProjects/untitled/src/main/java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/vela.os010/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.verifysignupfield.VerifyCompanyName">
-    <configuration name="CostingSupplierTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vela.os010\IdeaProjects\untitled\src\main\java" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestWriteFile">
+    <configuration name="TestWriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWriteFile" />
+      <module name="untitled.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CostingSupplierTest" />
+      <option name="MAIN_CLASS_NAME" value="TestSignUp" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,11 +141,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CostingSupplierTest.TestListElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignUp.VerifyCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CostingSupplierTest" />
-      <option name="METHOD_NAME" value="TestListElement" />
+      <option name="MAIN_CLASS_NAME" value="TestSignUp" />
+      <option name="METHOD_NAME" value="VerifyCreateUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,10 +153,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBookingAddMore" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBookingAddMore" />
+      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,23 +164,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBookingAddMore.TestAddMore" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadTest.TestThreads" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBookingAddMore" />
-      <option name="METHOD_NAME" value="TestAddMore" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifysignupfield.VerifyCompanyName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="verifysignupfield" />
-      <option name="METHOD_NAME" value="VerifyCompanyName" />
+      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
+      <option name="METHOD_NAME" value="TestThreads" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.verifysignupfield.VerifyCompanyName" />
-        <item itemvalue="TestNG.TestBookingAddMore" />
-        <item itemvalue="TestNG.TestBookingAddMore.TestAddMore" />
-        <item itemvalue="TestNG.CostingSupplierTest" />
-        <item itemvalue="TestNG.CostingSupplierTest.TestListElement" />
+        <item itemvalue="Application.TestWriteFile" />
+        <item itemvalue="TestNG.TestSignUp" />
+        <item itemvalue="TestNG.TestSignUp.VerifyCreateUser" />
+        <item itemvalue="TestNG.ThreadTest" />
+        <item itemvalue="TestNG.ThreadTest.TestThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +197,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -170,13 +218,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/verifysignupfield.java</url>
-          <line>23</line>
+          <line>21</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestLoginPage.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestBookingAddMore.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestWriteFile.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ApiTest.java</url>
@@ -186,6 +244,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestHoverName.java</url>
+          <line>26</line>
+          <properties class="TestHoverName" method="TestHover">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestSignUp.java</url>
+          <line>27</line>
+          <properties class="TestSignUp" method="VerifyCreateUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestWriteFile.java</url>
+          <line>29</line>
+          <properties class="TestWriteFile" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,8 +9,6 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.NoSuchElementException;
-
-
 public class verifysignupfield {
     WebDriver driver;
     @BeforeMethod
@@ -65,9 +63,7 @@ public class verifysignupfield {
         }
     }
 
-
     public void VerifyElement(WebDriver driver, String xpath, String expectedText) {
-
         WebElement CompanyName = driver.findElement(By.xpath(xpath));
         String TextCompany = CompanyName.getText();
         if(TextCompany.equals(expectedText)) {
