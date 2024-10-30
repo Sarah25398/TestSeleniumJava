@@ -20,6 +20,10 @@ dependencies {
     implementation("io.github.bonigarcia:webdrivermanager:5.9.2")
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     implementation("io.rest-assured:rest-assured:5.5.0")
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    implementation("org.apache.poi:poi-ooxml:5.3.0")
+
+
 
 
 

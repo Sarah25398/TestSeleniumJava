@@ -20,7 +20,9 @@ class multiThreads extends Thread {
                 driver = new FirefoxDriver();
             }
         }
-        catch(Exception y){}
+            catch (Exception y) {
+            throw new RuntimeException(y);
+        }
         driver.get("https://customer-dev2.vela.com.vn/");
         try {
             Thread.sleep(2000);
