@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004f5d8d-889a-4175-bd93-92a535e6f289" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestLoginCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UtilityData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbound CFS (2).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConnectionToDataBase/DBConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConnectionToDataBase/DBExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConnectionToDataBase/TestDBInLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/SignUpPageCustomerPortal/SignUpPageLocators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/SignUpPageCustomerPortal/ValidateAllInputFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestLoginBundleResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/randomData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/randomData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestMultipleLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestMultipleLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CostingSupplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBookingAddMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBookingAddMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestSignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +67,7 @@
     "Gradle.untitled [:APITest.main()].executor": "Run",
     "Gradle.untitled [:ApiTest.main()].executor": "Run",
     "Gradle.untitled [:ArrayListExample.main()].executor": "Run",
+    "Gradle.untitled [:ConnectionToDataBase.TestDBInLoginPage.main()].executor": "Run",
     "Gradle.untitled [:LamdaTest.main()].executor": "Run",
     "Gradle.untitled [:RandomDataUtility.main()].executor": "Run",
     "Gradle.untitled [:TestMultipleLogin.main()].executor": "Run",
@@ -75,6 +85,8 @@
     "TestNG.ArrayListExample.AddObjectIntoArray.executor": "Run",
     "TestNG.CostingSupplierTest.TestListElement.executor": "Run",
     "TestNG.CostingSupplierTest.executor": "Run",
+    "TestNG.InsertionSort.CollectionSort.executor": "Run",
+    "TestNG.InsertionSort.executor": "Run",
     "TestNG.LamdaTest.TestLamdaExpression.executor": "Run",
     "TestNG.LamdaTest.executor": "Run",
     "TestNG.SignUpTaskVerify.LoginTest.executor": "Run",
@@ -86,9 +98,11 @@
     "TestNG.TestClass.executor": "Run",
     "TestNG.TestClass.run.executor": "Run",
     "TestNG.TestClass.testSomething.executor": "Run",
+    "TestNG.TestDataProvider.LoginTestDataCustomer.executor": "Run",
     "TestNG.TestDataProvider.executor": "Run",
     "TestNG.TestHoverName.TestHover.executor": "Run",
     "TestNG.TestHoverName.executor": "Run",
+    "TestNG.TestLoginBundleResource.executor": "Run",
     "TestNG.TestLoginCustomer.LoginTest.executor": "Run",
     "TestNG.TestLoginCustomer.executor": "Run",
     "TestNG.TestLoginPage.VerifyUrl.executor": "Run",
@@ -99,20 +113,29 @@
     "TestNG.TestMultipleLogin.executor": "Run",
     "TestNG.TestSignUp.VerifyCreateUser.executor": "Run",
     "TestNG.TestSignUp.executor": "Run",
+    "TestNG.TestUUID.DataUUID.executor": "Run",
+    "TestNG.TestUUID.executor": "Run",
     "TestNG.ThreadTest.TestThreads.executor": "Run",
     "TestNG.ThreadTest.executor": "Run",
+    "TestNG.ValidateAllInputFields.CheckBoxUnselected.executor": "Run",
+    "TestNG.ValidateAllInputFields.VerifyFieldCompanyNameAttribute.executor": "Run",
+    "TestNG.ValidateAllInputFields.VerifyFullName.executor": "Run",
+    "TestNG.ValidateAllInputFields.VerifyPhoneNumber.executor": "Run",
+    "TestNG.ValidateAllInputFields.VerifyPhoneNumberCountry.executor": "Run",
+    "TestNG.ValidateAllInputFields.executor": "Run",
     "TestNG.verifysignupfield.VerifyCompanyName.executor": "Run",
     "TestNG.verifysignupfield.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vela.os010/IdeaProjects/untitled",
+    "last_opened_file_path": "C:/Users/vela.os010/IdeaProjects/untitled/src/main/resources",
     "onboarding.tips.debug.path": "C:/Users/vela.os010/IdeaProjects/untitled/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vela.os010\IdeaProjects\untitled\src\main\resources" />
       <recent name="C:\Users\vela.os010\IdeaProjects\untitled" />
       <recent name="C:\Users\vela.os010\IdeaProjects\untitled\src\main\java" />
     </key>
@@ -127,11 +150,37 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestDataProvider">
-    <configuration name="TestDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DBConfigure">
+    <configuration name="DBConfigure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectionToDataBase.DBConfigure" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConnectionToDataBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDBInLoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectionToDataBase.TestDBInLoginPage" />
+      <module name="untitled.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConnectionToDataBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDataProvider" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,22 +188,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLoginCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSort.CollectionSort" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginCustomer" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginCustomer.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginCustomer" />
-      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+      <option name="METHOD_NAME" value="CollectionSort" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,22 +200,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMultipleLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidateAllInputFields.CheckBoxUnselected" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMultipleLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMultipleLogin.TestMultipleLogins" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMultipleLogin" />
-      <option name="METHOD_NAME" value="TestMultipleLogins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.SignUpPageCustomerPortal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.SignUpPageCustomerPortal" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.SignUpPageCustomerPortal.ValidateAllInputFields" />
+      <option name="METHOD_NAME" value="CheckBoxUnselected" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestDataProvider" />
-        <item itemvalue="TestNG.TestLoginCustomer" />
-        <item itemvalue="TestNG.TestLoginCustomer.LoginTest" />
-        <item itemvalue="TestNG.TestMultipleLogin" />
-        <item itemvalue="TestNG.TestMultipleLogin.TestMultipleLogins" />
+        <item itemvalue="Application.DBConfigure" />
+        <item itemvalue="Application.TestDBInLoginPage" />
+        <item itemvalue="TestNG.InsertionSort.CollectionSort" />
+        <item itemvalue="TestNG.InsertionSort" />
+        <item itemvalue="TestNG.ValidateAllInputFields.CheckBoxUnselected" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +283,16 @@
           <line>26</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestDataProvider.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestSignUp.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ApiTest.java</url>
           <line>6</line>
@@ -285,6 +328,30 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/SignUpPageCustomerPortal/ValidateAllInputFields.java</url>
+          <line>62</line>
+          <properties class="TestCase.SignUpPageCustomerPortal.ValidateAllInputFields" method="VerifyPhoneNumberCountry">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/InsertionSort.java</url>
+          <line>48</line>
+          <properties class="InsertionSort" method="CollectionSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/SignUpPageCustomerPortal/ValidateAllInputFields.java</url>
+          <line>22</line>
+          <properties field="driver" class="TestCase.SignUpPageCustomerPortal.ValidateAllInputFields" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

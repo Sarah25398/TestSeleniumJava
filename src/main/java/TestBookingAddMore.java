@@ -73,21 +73,16 @@ public class TestBookingAddMore {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        WebElement radio = driver.findElement(By.xpath("(//input[@type='radio'])[2]"));
+        WebElement radio = driver.findElement(By.xpath("(//input[@type='radio'])[1]"));
         radio.click();
         try {
             Thread.sleep(2000);  // 2 seconds wait
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        WebElement addMore = driver.findElement(By.xpath("(//app-base-button[@classname='nv-border-none'])[2]"));
-        for(int i = 0; i < 500; i++ )
-        {
-            addMore.click();
-        }
-        WebElement SaveDraft = driver.findElement(By.xpath("(//button[@class='ant-btn base-button'])[2]"));
-        SaveDraft.click();
 
+        WebElement Import = driver.findElement(By.xpath("(//button[@type='button'])[8]"));
+        Import.click();
 
     }
     public void CreateAddMore(String TextTest){

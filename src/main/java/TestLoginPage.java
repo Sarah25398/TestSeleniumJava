@@ -16,7 +16,7 @@ public class TestLoginPage {
         driver = new ChromeDriver();
         String filePath = "randomData.txt";
         Map<String, String> data = RandomDataUtility.readEmailAndTextFromFile(filePath);
-        driver.get("https://customer-dev2.vela.com.vn/");
+        driver.get(Config.getURL());
         WebElement usernameField = driver.findElement(By.name("Username"));
         WebElement passwordField = driver.findElement(By.id("password"));
         WebElement loginButton = driver.findElement(By.id("btnlogin"));

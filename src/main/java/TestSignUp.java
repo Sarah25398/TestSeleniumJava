@@ -17,7 +17,7 @@ public class TestSignUp {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://customer-dev2.vela.com.vn/account/register");
+        driver.get("https://customer-staging.vela.com.vn/account/register");
         try {
             sleep(2000);  // 2 seconds wait
         } catch (InterruptedException e) {

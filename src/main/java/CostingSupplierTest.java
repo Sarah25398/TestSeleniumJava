@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utility.RandomDataUtility;
-
 import java.util.List;
 import java.util.Map;
 public class CostingSupplierTest {
@@ -16,7 +15,6 @@ public class CostingSupplierTest {
     public void Setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
         driver.get("https://customer-dev2.vela.com.vn/");
         try {
             Thread.sleep(2000);  // 2 seconds wait
@@ -35,7 +33,6 @@ public class CostingSupplierTest {
             e.printStackTrace();
         }
     }
-
     @Test
     public void TestListElement() {
         driver.get("https://portal-app-dev2.portal-nonprod.vela.com.vn/booking/create-booking");
