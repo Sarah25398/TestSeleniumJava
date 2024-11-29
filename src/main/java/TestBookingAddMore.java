@@ -1,3 +1,4 @@
+import TestCase.CostingSupplierPortal.SupplierCostingLocators;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,9 +23,9 @@ public class TestBookingAddMore {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        WebElement usernameField = driver.findElement(By.id("username"));
-        WebElement passwordField = driver.findElement(By.id("password"));
-        WebElement loginButton = driver.findElement(By.id("btnlogin"));
+        WebElement usernameField = driver.findElement(SupplierCostingLocators.USERNAME_FIELD);
+        WebElement passwordField = driver.findElement(SupplierCostingLocators.PASSWORD_FIELD);
+        WebElement loginButton = driver.findElement(SupplierCostingLocators.LOGIN_BUTTON);
         usernameField.sendKeys("vela.os015@itlvncom.onmicrosoft.com");
         passwordField.sendKeys("Hello@12");
         loginButton.click();

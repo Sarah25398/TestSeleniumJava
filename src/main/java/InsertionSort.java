@@ -5,12 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 public class InsertionSort {
     WebDriver driver;
     @BeforeMethod
@@ -22,7 +20,6 @@ public class InsertionSort {
     @Test
     public void TestInsertionSort() {
         try {
-
             List<WebElement> elements = driver.findElements(By.xpath("//label[@class='ant-form-item-required'][position() <= 6]"));
             insertionSort(elements);
             for (WebElement element : elements) {
@@ -32,7 +29,6 @@ public class InsertionSort {
             driver.quit();
         }
     }
-
     public static void insertionSort(List<WebElement> elements) {
         for (int i = 1; i < elements.size(); i++) {
             WebElement keyElement = elements.get(i);
@@ -55,8 +51,6 @@ public class InsertionSort {
         Collections.sort(elementTexts, Comparator.reverseOrder());
         for(String text : elementTexts){
             System.out.println(text);
-
         };
-
     }
 }
