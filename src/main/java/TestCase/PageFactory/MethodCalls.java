@@ -1,7 +1,7 @@
 package TestCase.PageFactory;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import utility.GetKeyPropertyEnv;
 
 public class MethodCalls {
     WebDriver driver;
@@ -10,11 +10,14 @@ public class MethodCalls {
     }
     @Test
     public void LoginPageCustomerPortal() throws InterruptedException {
-        driver.get("https://customer-dev2.vela.com.vn/");
+        String baseUrl = GetKeyPropertyEnv.getBaseUrl();
+        driver.get(baseUrl);
         Thread.sleep(2000);
         PageBaseLogin PageBaseLogin = new PageBaseLogin(driver);
-        PageBaseLogin.enterUserName("vela.os015@itlvncom.onmicrosoft.com");
-        PageBaseLogin.enterPassword("Hello@12");
+        String userName = GetKeyPropertyEnv.getUserName();
+        String passWord = GetKeyPropertyEnv.getPassWord();
+        PageBaseLogin.enterUserName(userName);
+        PageBaseLogin.enterPassword(passWord);
         PageBaseLogin.ClickButton();
         Thread.sleep(2000);
     }
