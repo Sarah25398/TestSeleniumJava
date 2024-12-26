@@ -25,6 +25,13 @@ dependencies {
     implementation("com.aventstack:extentreports:5.1.2")
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
     implementation("io.qameta.allure:allure-testng:2.29.1")
+    implementation ("io.gatling.highcharts:gatling-charts-highcharts:3.9.0")
+    implementation ("io.gatling:gatling-app:3.9.0")
+    implementation("com.github.stephenc.monte:monte-screen-recorder:0.7.7.0")
+    // https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder
+    implementation("com.github.stephenc.monte:monte-screen-recorder:0.7.7.0")
+
+
 
 }
 

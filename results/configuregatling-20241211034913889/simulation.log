@@ -1,0 +1,31 @@
+RUN	Gatling.ConfigureGatling	configuregatling	1733888953889	 	3.9.0
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+ERROR	No baseUrl defined but provided url is relative : /booking-api/api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888954468
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954476
+USER	Test Gatling	START	1733888954477
+USER	Test Gatling	END	1733888954476
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477
+USER	Test Gatling	END	1733888954477

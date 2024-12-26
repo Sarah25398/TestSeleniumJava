@@ -12,7 +12,6 @@ public class LoginCostingSupplier {
 
     WebDriver driver;
 
-
     public LoginCostingSupplier(WebDriver driver) {
         this.driver = driver;
     }
@@ -26,10 +25,9 @@ public class LoginCostingSupplier {
         usernameField.sendKeys("resano4555@hutov.com");
         passwordField.sendKeys("Hello@123");
         loginButton.click();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         driver.get("https://supplier-dev2.vela.com.vn/costing/list");
-
-
+        Thread.sleep(2000);
 
     }
 }

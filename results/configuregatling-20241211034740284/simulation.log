@@ -1,0 +1,41 @@
+RUN	Gatling.ConfigureGatling	configuregatling	1733888860284	 	3.9.0
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+ERROR	No baseUrl defined but provided url is relative : /: Failed to build request: Get Paging 	1733888860877
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+USER	Test Gatling	START	1733888860883
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862882
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862885
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862885
+ERROR	No baseUrl defined but provided url is relative : /api/v1/booking/core/get-paging: Failed to build request: Get Paging 	1733888862885
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899
+USER	Test Gatling	END	1733888862899

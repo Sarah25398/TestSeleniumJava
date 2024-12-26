@@ -1,0 +1,16 @@
+{
+  "login": {
+    "validUser": {
+      "username": "vela.os015@itlvncom.onmicrosoft.com",
+      "password": "Hello@12"
+    },
+    "invalidUser": {
+      "username": "vela.os015@itlvncom.onmicrosoft.com1",
+      "password": "Hello@12"
+    },
+    "invalidPassWord": {
+      "username": "vela.os015@itlvncom.onmicrosoft.com",
+      "password": "Hello@123"
+    }
+  }
+}

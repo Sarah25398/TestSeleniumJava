@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004f5d8d-889a-4175-bd93-92a535e6f289" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Outbound CFS (4).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extent-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReports/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/CreateAllBookingInboundActiveQuotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/CreateAllBookingOutboundActiveQuotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/CreateBuyerConsolBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/CreateOutBoundBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/Run100timesCreatBookingCFSInbound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/hackkerank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/GetKeyPropertyEnv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Environment.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonUserData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EncapsulationTest/GetDataJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GRID/SeleniumGridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gatling/ConfigureGatling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gatling/RunGatling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/CostingVAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/CostingVasLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/GeneratingCostingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/ParallelRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/VideoRecorderUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConnectionToDataBase/TestDBInLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConnectionToDataBase/TestDBInLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/MethodCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/MethodCalls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/PageBaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/PageBaseLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/createCFSInboundButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/PageFactory/createCFSInboundButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/LoginCostingSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/LoginCostingSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/SupplierCostingLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/SupplierCostingLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/TestCreateCosting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/TestCreateCosting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/RetryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Environment.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,105 +59,115 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Build untitled.executor": "Run",
-    "Gradle.untitled [:APITest.main()].executor": "Run",
-    "Gradle.untitled [:ApiTest.main()].executor": "Run",
-    "Gradle.untitled [:ArrayListExample.main()].executor": "Run",
-    "Gradle.untitled [:ConnectionToDataBase.DBConfigure.main()].executor": "Run",
-    "Gradle.untitled [:ConnectionToDataBase.TestDBInLoginPage.main()].executor": "Run",
-    "Gradle.untitled [:LamdaTest.main()].executor": "Run",
-    "Gradle.untitled [:RandomDataUtility.main()].executor": "Run",
-    "Gradle.untitled [:TestCase.PageFactory.CreateAllBookingInboundActiveQuotation.main()].executor": "Run",
-    "Gradle.untitled [:TestCase.PageFactory.CreateAllBookingOutboundActiveQuotation.main()].executor": "Run",
-    "Gradle.untitled [:TestCase.PageFactory.Run100timesCreatBookingCFSInbound.main()].executor": "Run",
-    "Gradle.untitled [:TestCase.PageFactory.hackkerank.main()].executor": "Run",
-    "Gradle.untitled [:TestMultipleLogin.main()].executor": "Run",
-    "Gradle.untitled [:TestWriteFile.main()].executor": "Run",
-    "Gradle.untitled [:ValidateFields.main()].executor": "Run",
-    "Gradle.untitled [:utility.GetKeyPropertyEnv.main()].executor": "Run",
-    "Gradle.untitled [:utility.RandomDataUtility.main()].executor": "Run",
-    "Gradle.untitled [:utility.RandomTextEmailGenerator.main()].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.ApiTest.GetWeatherDetails.executor": "Run",
-    "TestNG.ApiTest.executor": "Run",
-    "TestNG.ArrayListExample.AddObjectIntoArray.executor": "Run",
-    "TestNG.BookingCFSInbound.GetBookingPage.executor": "Run",
-    "TestNG.BookingCFSInbound.executor": "Run",
-    "TestNG.CostingSupplierTest.TestListElement.executor": "Run",
-    "TestNG.CostingSupplierTest.executor": "Run",
-    "TestNG.CreateBuyerConsolBooking.SearchQuotationID.executor": "Run",
-    "TestNG.CreateBuyerConsolBooking.executor": "Run",
-    "TestNG.CreateOutBoundBooking.createBookingOutboundData.executor": "Run",
-    "TestNG.CreateOutBoundBooking.executor": "Run",
-    "TestNG.DBConfigure.TestLoginDev.executor": "Run",
-    "TestNG.DBConfigure.executor": "Run",
-    "TestNG.InsertionSort.CollectionSort.executor": "Run",
-    "TestNG.InsertionSort.executor": "Run",
-    "TestNG.LamdaTest.TestLamdaExpression.executor": "Run",
-    "TestNG.LamdaTest.executor": "Run",
-    "TestNG.MethodCalls.LoginPageCustomerPortal.executor": "Run",
-    "TestNG.SignUpTaskVerify.LoginTest.executor": "Run",
-    "TestNG.SignUpTaskVerify.executor": "Run",
-    "TestNG.TestBookingAddMore.TestAddMore.executor": "Run",
-    "TestNG.TestBookingAddMore.TestAddMorePagination.executor": "Run",
-    "TestNG.TestBookingAddMore.executor": "Run",
-    "TestNG.TestCaseLogin.LoginPageCustomerPortal.executor": "Run",
-    "TestNG.TestCaseLogin.executor": "Run",
-    "TestNG.TestClass.LoginPage.executor": "Run",
-    "TestNG.TestClass.executor": "Run",
-    "TestNG.TestClass.run.executor": "Run",
-    "TestNG.TestClass.testSomething.executor": "Run",
-    "TestNG.TestCreateCosting.CreateCostingDT.executor": "Run",
-    "TestNG.TestCreateCosting.executor": "Run",
-    "TestNG.TestDataProvider.LoginTestDataCustomer.executor": "Run",
-    "TestNG.TestDataProvider.executor": "Run",
-    "TestNG.TestHoverName.TestHover.executor": "Run",
-    "TestNG.TestHoverName.executor": "Run",
-    "TestNG.TestLoginBundleResource.executor": "Run",
-    "TestNG.TestLoginCustomer.LoginTest.executor": "Run",
-    "TestNG.TestLoginCustomer.executor": "Run",
-    "TestNG.TestLoginPage.VerifyUrl.executor": "Run",
-    "TestNG.TestLoginPage.executor": "Run",
-    "TestNG.TestMultipleLogin.TestLoginExcel.executor": "Run",
-    "TestNG.TestMultipleLogin.TestMultipleLogin.executor": "Run",
-    "TestNG.TestMultipleLogin.TestMultipleLogins.executor": "Run",
-    "TestNG.TestMultipleLogin.executor": "Run",
-    "TestNG.TestSignUp.VerifyCreateUser.executor": "Run",
-    "TestNG.TestSignUp.executor": "Run",
-    "TestNG.TestUUID.DataUUID.executor": "Run",
-    "TestNG.TestUUID.executor": "Run",
-    "TestNG.ThreadTest.TestThreads.executor": "Run",
-    "TestNG.ThreadTest.executor": "Run",
-    "TestNG.ValidateAllInputFields.CheckBoxUnselected.executor": "Run",
-    "TestNG.ValidateAllInputFields.VerifyFieldCompanyNameAttribute.executor": "Run",
-    "TestNG.ValidateAllInputFields.VerifyFullName.executor": "Run",
-    "TestNG.ValidateAllInputFields.VerifyPhoneNumber.executor": "Run",
-    "TestNG.ValidateAllInputFields.VerifyPhoneNumberCountry.executor": "Run",
-    "TestNG.ValidateAllInputFields.executor": "Run",
-    "TestNG.createCFSInboundButton.GetBookingPage.executor": "Run",
-    "TestNG.createCFSInboundButton.SearchQuotationID.executor": "Run",
-    "TestNG.createCFSInboundButton.executor": "Run",
-    "TestNG.verifysignupfield.VerifyCompanyName.executor": "Run",
-    "TestNG.verifysignupfield.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vela.os010/IdeaProjects/untitled",
-    "onboarding.tips.debug.path": "C:/Users/vela.os010/IdeaProjects/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build untitled.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:APITest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ApiTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ArrayListExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ConnectionToDataBase.DBConfigure.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ConnectionToDataBase.TestDBInLoginPage.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:EncapsulationTest.GetDataJson.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:Gatling.RunGatling.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:LamdaTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:RandomDataUtility.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.CostingSupplierPortal.GeneratingCostingNumber.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.CostingSupplierPortal.ParallelRunner.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.PageFactory.CreateAllBookingInboundActiveQuotation.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.PageFactory.CreateAllBookingOutboundActiveQuotation.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.PageFactory.Run100timesCreatBookingCFSInbound.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestCase.PageFactory.hackkerank.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestMultipleLogin.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:TestWriteFile.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:ValidateFields.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:utility.GetKeyPropertyEnv.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:utility.RandomDataUtility.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.untitled [:utility.RandomTextEmailGenerator.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.ApiTest.GetWeatherDetails.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ArrayListExample.AddObjectIntoArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingCFSInbound.GetBookingPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BookingCFSInbound.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CostingDT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CostingSupplierTest.TestListElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CostingSupplierTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CostingVAS.CreateCostingDT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateBuyerConsolBooking.SearchQuotationID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateBuyerConsolBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCostingSeaLCL.CreateCostingDT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCostingSeaLCL.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateModeSeaLCL.CreateCostingDT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateOutBoundBooking.createBookingOutboundData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateOutBoundBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DBConfigure.TestLoginDev.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DBConfigure.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InsertionSort.CollectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LamdaTest.TestLamdaExpression.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LamdaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MethodCalls.LoginPageCustomerPortal.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SeleniumGridTest.testGoogleSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTaskVerify.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUpTaskVerify.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestBookingAddMore.TestAddMore.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestBookingAddMore.TestAddMorePagination.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestBookingAddMore.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCaseLogin.LoginPageCustomerPortal.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCaseLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestClass.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestClass.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestClass.run.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestClass.testSomething.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCreateCosting.CreateCostingDT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestCreateCosting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestDataProvider.LoginTestDataCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestHoverName.TestHover.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestHoverName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginBundleResource.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginCustomer.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginPage.VerifyUrl.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestMultipleLogin.TestLoginExcel.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestMultipleLogin.TestMultipleLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestMultipleLogin.TestMultipleLogins.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestMultipleLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSignUp.VerifyCreateUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestSignUp.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestUUID.DataUUID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestUUID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ThreadTest.TestThreads.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ThreadTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.CheckBoxUnselected.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.VerifyFieldCompanyNameAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.VerifyFullName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.VerifyPhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.VerifyPhoneNumberCountry.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ValidateAllInputFields.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.createCFSInboundButton.GetBookingPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.createCFSInboundButton.SearchQuotationID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.createCFSInboundButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.verifysignupfield.VerifyCompanyName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.verifysignupfield.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vela.os010/IdeaProjects/untitled&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/vela.os010/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vela.os010\IdeaProjects\untitled" />
@@ -177,13 +185,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateAllBookingOutboundActiveQuotation">
-    <configuration name="CreateAllBookingInboundActiveQuotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCase.PageFactory.CreateAllBookingInboundActiveQuotation" />
+  <component name="RunManager" selected="TestNG.CostingDT">
+    <configuration name="GeneratingCostingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCase.CostingSupplierPortal.GeneratingCostingNumber" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.PageFactory.*" />
+          <option name="PATTERN" value="TestCase.CostingSupplierPortal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAllBookingOutboundActiveQuotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCase.PageFactory.CreateAllBookingOutboundActiveQuotation" />
+    <configuration name="GetDataJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EncapsulationTest.GetDataJson" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.PageFactory.*" />
+          <option name="PATTERN" value="EncapsulationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetKeyPropertyEnv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utility.GetKeyPropertyEnv" />
+    <configuration name="ParallelRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCase.CostingSupplierPortal.ParallelRunner" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utility.*" />
+          <option name="PATTERN" value="TestCase.CostingSupplierPortal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,17 +225,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateOutBoundBooking.createBookingOutboundData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CostingDT" type="TestNG" temporary="true">
       <module name="untitled.main" />
+      <shortenClasspath name="ARGS_FILE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCase.PageFactory.*" />
+          <option name="PATTERN" value="TestCase.CostingSupplierPortal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCase.PageFactory" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.PageFactory.CreateOutBoundBooking" />
-      <option name="METHOD_NAME" value="createBookingOutboundData" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCase.CostingSupplierPortal" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.CostingSupplierPortal.TestCreateCosting" />
+      <option name="METHOD_NAME" value="CreateCostingDT" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CostingVAS.CreateCostingDT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled.main" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.CostingSupplierPortal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase.CostingSupplierPortal" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.CostingSupplierPortal.CostingVAS" />
+      <option name="METHOD_NAME" value="CreateCostingDT" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -235,18 +272,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodCalls.LoginPageCustomerPortal" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.PageFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCase.PageFactory" />
-      <option name="MAIN_CLASS_NAME" value="TestCase.PageFactory.MethodCalls" />
-      <option name="METHOD_NAME" value="LoginPageCustomerPortal" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -255,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetKeyPropertyEnv" />
-        <item itemvalue="Application.CreateAllBookingOutboundActiveQuotation" />
-        <item itemvalue="TestNG.MethodCalls.LoginPageCustomerPortal" />
-        <item itemvalue="Application.CreateAllBookingInboundActiveQuotation" />
-        <item itemvalue="TestNG.CreateOutBoundBooking.createBookingOutboundData" />
+        <item itemvalue="TestNG.CostingDT" />
+        <item itemvalue="TestNG.CostingVAS.CreateCostingDT" />
+        <item itemvalue="Application.ParallelRunner" />
+        <item itemvalue="Application.GeneratingCostingNumber" />
+        <item itemvalue="Application.GetDataJson" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +364,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/TestCreateCosting.java</url>
-          <line>8</line>
+          <line>12</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -348,6 +376,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/TestCase/PageFactory/CreateBuyerConsolBooking.java</url>
           <line>13</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/CostingVasLocator.java</url>
+          <line>337</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/CostingVasLocator.java</url>
+          <line>341</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ApiTest.java</url>
@@ -456,6 +494,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/TestCreateCosting.java</url>
+          <line>23</line>
+          <properties class="TestCase.CostingSupplierPortal.TestCreateCosting" method="CreateCostingDT">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/CostingSupplierPortal/CostingVAS.java</url>
+          <line>21</line>
+          <properties class="TestCase.CostingSupplierPortal.CostingVAS" method="CreateCostingDT">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/TestCase/SignUpPageCustomerPortal/ValidateAllInputFields.java</url>
