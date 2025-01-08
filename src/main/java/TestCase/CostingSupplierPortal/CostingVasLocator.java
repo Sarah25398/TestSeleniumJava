@@ -347,7 +347,6 @@ public class CostingVasLocator {
         TabAirInputCosting.click();
         Thread.sleep(10000);
 
-
     }
     public void TabRoadInputCosting() throws InterruptedException {
         TabRoadInputCosting.click();

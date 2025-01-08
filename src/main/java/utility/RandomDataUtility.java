@@ -32,7 +32,7 @@ public class RandomDataUtility {
         Random random = new Random();
 
         // Generate random text (10 characters)
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             text.append(characters.charAt(random.nextInt(characters.length())));
         }
         return text.toString();
